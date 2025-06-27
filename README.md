@@ -19,6 +19,6 @@ In this configuration, this circuit can also be used with a stick or long wire a
 
 The typical capacitance of this diode is very small, 2-4 pF. The maximal voltage is 70V. 
 
-**But how it works?**
+📐 **But how it works?**
 
 If come a higher voltage impulse or higher signal from an other circuit unit, than the resistor limits the current and the parallel diode discharge the overvoltage. Unfortunately, the diode has a short dead time before it works properly, therefore we use a very small parallel capacitance that responds immediately to the high frequency impulse. This diode and this small capacitance do not degrade the frequency response and the impedance.
