@@ -5,7 +5,7 @@ Voltage Controlled Amplifier with dual-gate MOSFET for FlexRadio project, but yo
 
 # ⭐ The circuit
 
-A widband amplifier has many problems for example gain, frequency response or impedance in full range. If you see the gain works very well, the frequency response will to narrow or rugged and etc. Therefore, it's not easy to find the balance. Let's try it! This circuit has more classical solutions, but it has many useful functions for example Over-Voltage Protection. **Attention!** Th This circuit has not real ESD protection! 🥇 It has simple but intelligent surge protection. :)
+A widband amplifier has many problems for example gain, frequency response or impedance in full range. If you see the gain works very well, the frequency response will to narrow or rugged and etc. Therefore, it's not easy to find the balance. Let's try it! This circuit has more classical solutions, but it has many useful functions for example Over-Voltage Protection. **Attention!** This circuit has not real ESD protection! 🥇 It has simple but intelligent surge protection. :)
  
 ## The first part
 
@@ -13,7 +13,7 @@ In this configuration, this circuit can also be used with a stick or long wire a
 
 ![image](https://github.com/user-attachments/assets/869b88dc-ef5f-4f53-b2c9-b8c5a19f63f6)
 
-**Simple but very important!** Choosing the best diode type is not trivial. The diode must be high voltage tolerant with very small capacity and very hight speed. So, it's heavy. We must find a well solution for those problems with THT parts (in HAM world that is basic need). 
+**Simple but very important!** Choosing the best diode type is not trivial. The diode must be higher voltage tolerant with very small capacity and very high speed. So, it's heavy. We must find a well solution for those problems with THT parts (in HAM world that is basic need). 
 
 🚀 **My solution for those problems** are the 1N5711 Germanium diode (VHF/UHF schottky) with a small parallel capacity. 
 
