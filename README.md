@@ -27,4 +27,6 @@ If come a higher voltage impulse or higher signal from an other circuit unit, th
 
 ## The second part
 
-Very important thing! If the impedance of the amplifier is not the same across the full frequency range, the power of the signal from the antenna to the amplifier will vary. So we need to use a transistor stage that is less sensitive to frequency changes. That is the Common-Gate amplifier.
+**Very important thing!** If the impedance of the amplifier is not the same across the full frequency range, the power of the signal from the antenna to the amplifier will vary. So we need to use a transistor stage that is less sensitive to frequency changes. ❤️ That is the **Common-Gate** amplifier.
+
+![image](https://github.com/user-attachments/assets/1edb7014-1d43-451e-95d0-8a0e5c23d2f7)
