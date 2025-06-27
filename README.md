@@ -9,7 +9,7 @@ A widband amplifier has many problems for example gain, frequency response or im
  
 ## The first part
 
-In this configuration, this circuit can also be used with a stick or long wire antenna in range 0.5MHz to 10.0MHz. Therefore, we must pay close attention for electrostatic discharges and any high input voltage because the pins of FETs are very sensitive. See it:
+In this configuration, this circuit can also be used with a stick or long wire antenna in range 0.5MHz to 10.0MHz. Therefore, we must pay close attention for higher input voltage because the pins of FETs are very sensitive. See it:
 
 ![image](https://github.com/user-attachments/assets/09d537b0-92c0-492d-81f6-b3136f87ac7f)
 
