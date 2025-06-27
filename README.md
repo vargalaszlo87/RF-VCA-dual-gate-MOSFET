@@ -5,7 +5,7 @@ Voltage Controlled Amplifier with dual-gate MOSFET for FlexRadio project, but yo
 
 # ⭐ The circuit
 
-A widband amplifier has many problems for example gain, frequency response or impedance in full range. If you see the gain works very well, the frequency response will to narrow or rugged and etc. Therefore, it's not easy to find the balance. Let's try it! This circuit has two classical parts, but it has many useful functions for example Over-Voltage Protection. **Attention!** Th This circuit has not real ESD protection! 🥇 It has simple but intelligent surge protection. :)
+A widband amplifier has many problems for example gain, frequency response or impedance in full range. If you see the gain works very well, the frequency response will to narrow or rugged and etc. Therefore, it's not easy to find the balance. Let's try it! This circuit has more classical solutions, but it has many useful functions for example Over-Voltage Protection. **Attention!** Th This circuit has not real ESD protection! 🥇 It has simple but intelligent surge protection. :)
  
 ## The first part
 
@@ -24,3 +24,7 @@ The typical capacitance of this diode is very small, 2-4 pF. The maximal voltage
 If come a higher voltage impulse or higher signal from an other circuit unit, than the resistor limits the current and the parallel diode discharge the overvoltage. Unfortunately, the diode has a short dead time before it works properly, therefore we use a very small parallel capacitance that responds immediately to the high frequency impulse. Those diodes and this small capacitance do not degrade the frequency response and the impedance and limit the voltage to 0.2-0.3V (as a Germanium PN junction).
 
 ⚛️ If you want to transpose the impedance to 50 ohms, choose a smaller resistor (about ~10 ohms).
+
+## The second part
+
+Very important thing! If the impedance of the amplifier is not the same across the full frequency range, the power of the signal from the antenna to the amplifier will vary. So we need to use a transistor stage that is less sensitive to frequency changes. That is the Common-Gate amplifier.
