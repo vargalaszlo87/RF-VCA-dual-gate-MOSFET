@@ -37,4 +37,7 @@ What is the problem normally? If we were to use a commonly used amplifier type, 
 
 The output impedance of the common-gate amplifier is also good for the following dual-gate amplifier.
 
+## The third part
+
+![image](https://github.com/user-attachments/assets/b6a49f9a-2c7f-4ece-9271-370576bd1d89)
 
