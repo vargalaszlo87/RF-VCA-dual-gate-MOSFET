@@ -5,6 +5,8 @@ Voltage Controlled Amplifier with dual-gate MOSFET for FlexRadio project, but yo
 
 # ⭐ The circuit
 
+![image](https://github.com/user-attachments/assets/e6f9e094-692c-44c4-a4ae-37d9c1a9d8d9)
+
 A widband amplifier has many problems for example gain, frequency response or impedance in full range. If you see the gain works very well, the frequency response will to narrow or rugged and etc. Therefore, it's not easy to find the balance. Let's try it! This circuit has more classical solutions, but it has many useful functions for example Over-Voltage Protection. **Attention!** This circuit has not real ESD protection! 🥇 It has simple but intelligent surge protection. :)
  
 ## The first part
@@ -30,3 +32,7 @@ If come a higher voltage impulse or higher signal from an other circuit unit, th
 **Very important thing!** If the impedance of the amplifier is not the same across the full frequency range, the power of the signal from the antenna to the amplifier will vary. So we need to use a transistor stage that is less sensitive to frequency changes. ❤️ That is the **Common-Gate** amplifier.
 
 ![image](https://github.com/user-attachments/assets/1edb7014-1d43-451e-95d0-8a0e5c23d2f7)
+
+What is the problem normally? If we were to use a commonly used amplifier type, such as a common-source or common-drain amplifier, then the parasitic capacitance of the gate-source causes a change in the impedance or frequency response as the frequency increases. This circuit with those parameters makes relative low level of change of input impedance. In the full frequency range the impedance-changing less than 0.1kohm and the avarage is 2.1kohm. ⭐ The impedance around 2k ohms is well match for the long-wire antenna and it works also good with simple stick-antenna.
+
+
