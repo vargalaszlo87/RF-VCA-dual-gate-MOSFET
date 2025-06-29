@@ -39,5 +39,14 @@ The output impedance of the common-gate amplifier is also good for the following
 
 ## The third part
 
+🚀 **Very intresting and very useful!** This circuit is most similar to a vacuum-tube circuit.
+
 ![image](https://github.com/user-attachments/assets/b6a49f9a-2c7f-4ece-9271-370576bd1d89)
+
+ This MOSFET has two gates, so you can control this on the two electrodes at the same time. Therefore, you can make with this: 
+ - a mixer circuit
+ - automatic gain control
+ - voltage control amplifier
+
+📐 This circuit implements a voltage control amplifier. Normally the Gate 1 is the way of signal (RF or HF) and the Gate 2 controls the gain. 
 
