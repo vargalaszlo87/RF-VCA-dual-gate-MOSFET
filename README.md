@@ -50,3 +50,23 @@ The output impedance of the common-gate amplifier is also good for the following
 
 📐 This circuit implements a voltage control amplifier. Normally the Gate 1 is the way of signal (RF or HF) and the Gate 2 controls the gain. 
 
+# ⭐ Simulations
+
+**This plot shows the Amplitude and phase chart at a control voltage of 2.0V**
+
+![image](https://github.com/user-attachments/assets/6509a6a2-a42a-4f72-a6e7-992d0747dd01)
+
+- f0 = 2.034MHz
+- f_a = 534kHz
+- f_b = 6.87MHz
+
+**and at a control voltage of 0.1V**
+
+![image](https://github.com/user-attachments/assets/3a832a92-2d24-40e4-9a4d-0228779a1bd8)
+
+- f0 = 2.06MHz
+- f_a = 369kHz
+- f_b = 9.62MHz
+
+
+
