@@ -75,5 +75,11 @@ The output impedance of the common-gate amplifier is also good for the following
 - Z_a = 2.31kohm
 - Z_b = 1.96kohm
 
+**Output impedance**
+
+![image](https://github.com/user-attachments/assets/97ff3c66-8688-4f32-8d3a-bef7e0669c7b)
+
+- Z_a = 2.40kohm
+- Z_b = 2.75kohm
 
 
