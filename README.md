@@ -33,7 +33,7 @@ If come a higher voltage impulse or higher signal from an other circuit unit, th
 
 ![image](https://github.com/user-attachments/assets/1edb7014-1d43-451e-95d0-8a0e5c23d2f7)
 
-What is the problem normally? If we were to use a commonly used amplifier type, such as a common-source or common-drain amplifier, then the parasitic capacitance of the gate-source causes a change in the impedance or frequency response as the frequency increases. This circuit with those parameters makes relative low level of change of input impedance. In the full frequency range the impedance-changing less than 0.1kohm and the avarage is 2.1kohm. ⭐ The impedance around 2k ohms is well match for the long-wire antenna and it works also good with simple stick-antenna.
+What is the problem normally? If we were to use a commonly used amplifier type, such as a common-source or common-drain amplifier, then the parasitic capacitance of the gate-source causes a change in the impedance or frequency response as the frequency increases. This circuit with those parameters makes relative low level of change of input impedance. In the full frequency range the impedance-changing less than 0.25kohm and the avarage is 2.15kohm. ⭐ The impedance around 2k ohms is well match for the long-wire antenna and it works also good with simple stick-antenna.
 
 The output impedance of the common-gate amplifier is also good for the following dual-gate amplifier.
 
@@ -68,5 +68,18 @@ The output impedance of the common-gate amplifier is also good for the following
 - f_a = 369kHz
 - f_b = 9.62MHz
 
+**Input impedance**
+
+![image](https://github.com/user-attachments/assets/c4a986e4-96ae-4f9a-ad06-d5248added05)
+
+- Z_a = 2.31kohm
+- Z_b = 1.96kohm
+
+**Output impedance**
+
+![image](https://github.com/user-attachments/assets/960c12cb-1476-4274-8377-a9e151f60633)
+
+- Z_a = 2.29kohm
+- Z_b = 2.75kohm
 
 
